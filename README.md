@@ -9,10 +9,10 @@
 - A user can toggle between sorting the list by how many bronwie points they've earned in the past 30 days and by how many brownie points they've earned total.
 
 
-
 ### TODO
 
 ### DONE
-- setup dependencies and initial app
+- ~~setup dependencies and initial app~~
+- Now a dump from codepen
 
 ### DOING
