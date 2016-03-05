@@ -75,11 +75,14 @@ var CamperTable = React.createClass({
       rows.push(<CamperRow camper={campers[i]} key={i} num={i+1}/>);
     }
     return (
-      <table className="table">
+      <table className="table table-striped table-bordered table-container">
         <thead>
           <tr>
-            <th>#</th>
-            <th>Camper Name</th>
+            <th rowspan="4">Camper Leaderboard</th>
+          </tr>
+          <tr>
+            <th><h4>#</h4></th>
+            <th><h4>Camper Name</h4></th>
             <th><button onClick={this.handleRecent}className={this.state.sortRecent ? "btn btn-primary" : "btn btn-default"}>Past 30 days</button></th>
             <th><button onClick={this.handleAlltime} className={!this.state.sortRecent ? "btn btn-primary" : "btn btn-default"}>All time</button></th>
           </tr>
@@ -101,7 +104,7 @@ var App = React.createClass
           <h1>Camper Leaderboard</h1>
           <h3>A FreeCodeCamp project built with React and Sass</h3>
         </div>
-        <CamperTable />
+        <CamperTable className="table-container"/>
       </div>
     );
   }

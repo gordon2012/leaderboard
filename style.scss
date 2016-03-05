@@ -1,50 +1,11 @@
-body
-{
-  background: white;
-}
 .jumbotron
 {
   text-align: center;
+  margin-bottom: 0;
 }
 
 
-
-.main
-{
-  position: absolute;
-  background: white;
-  max-width: 15em;
-  min-width: 5em;
-  // overflow: hidden;
-}
-
-.section
-{
-  // position: relative;
-  // width: 100%;
-  border-bottom: 1px solid black;
-}
-
-.section.open
-{
-  .articlewrap
-  {
-    // max-height: 200px;
-  }
-}
-
-.articlewrap
-{
-  // max-height: 0;
-  // overflow: hidden;
-  // transition: all .2s ease-in;
-}
-
-
-.sectionhead
-{
-  // width: 100%;
-  // overflow: hidden;
-  // background: white;
-  cursor: pointer;
+.table-container {
+  max-width: 80%;
+  margin: 0 auto;
 }

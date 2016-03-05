@@ -14,5 +14,6 @@
 ### DONE
 - ~~setup dependencies and initial app~~
 - Now a dump from codepen
+- style table
 
 ### DOING
