@@ -15,5 +15,6 @@
 - ~~setup dependencies and initial app~~
 - Now a dump from codepen
 - style table
+- fix column widths
 
 ### DOING
