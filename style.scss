@@ -9,6 +9,10 @@ table {
   border-collapse: collapse;
   width: 100%;
 
+  th.heading {
+    text-align: center;
+  }
+
   td.absorbing-column {
       width: 100%;
   }

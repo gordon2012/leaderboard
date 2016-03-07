@@ -75,10 +75,10 @@ var CamperTable = React.createClass({
       rows.push(<CamperRow camper={campers[i]} key={i} num={i+1}/>);
     }
     return (
-      <table className="table table-striped table-bordered table-container">
+      <table className="table table-striped table-bordered">
         <thead>
           <tr>
-            <th rowspan="4">Camper Leaderboard</th>
+            <th className="heading" colSpan="4"><h3>Camper Leaderboard</h3></th>
           </tr>
           <tr>
             <th><h4>#</h4></th>
@@ -87,7 +87,9 @@ var CamperTable = React.createClass({
             <th><button onClick={this.handleAlltime} className={!this.state.sortRecent ? "btn btn-primary" : "btn btn-default"}>All time</button></th>
           </tr>
         </thead>
-        <tbody>{rows}</tbody>
+        <tbody>
+          {rows}
+        </tbody>
       </table>
     );
   }

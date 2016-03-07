@@ -16,5 +16,6 @@
 - Now a dump from codepen
 - style table
 - fix column widths
+- fix table header
 
 ### DOING
