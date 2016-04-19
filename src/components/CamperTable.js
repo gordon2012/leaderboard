@@ -1,15 +1,6 @@
-var CamperRow = React.createClass({
-  render: function() {
-    return (
-      <tr>
-        <td>{this.props.num}</td>
-        <td className="absorbing-column"><img src={this.props.camper.img} style={{width: "32px"}}/><span style={{padding: "0 16px"}}><a target="_blank" href={'http://www.freecodecamp.com/' + this.props.camper.username}>{this.props.camper.username}</a></span></td>
-        <td>{this.props.camper.recent}</td>
-        <td>{this.props.camper.alltime}</td>
-      </tr>
-    );
-  }
-});
+var React = require('react');
+var CamperRow = require('./CamperRow');
+var $ = require('jquery');
 
 
 var CamperTable = React.createClass({
@@ -96,21 +87,4 @@ var CamperTable = React.createClass({
 });
 
 
-var App = React.createClass
-({
-  render: function()
-  {
-    return (
-      <div>
-        <div className="jumbotron">
-          <h1>Camper Leaderboard</h1>
-          <h3>A FreeCodeCamp project built with React and Sass</h3>
-        </div>
-        <CamperTable className="table-container"/>
-      </div>
-    );
-  }
-});
-
-
-React.render(<App />, document.getElementById('app'));
+module.exports = CamperTable;

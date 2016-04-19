@@ -10,12 +10,13 @@
 
 
 ### TODO
+- refactor containers from components
+
 
 ### DONE
-- ~~setup dependencies and initial app~~
+- setup dependencies and initial app
 - Now a dump from codepen
 - style table
 - fix column widths
 - fix table header
-
-### DOING
+- transfer again from codepen
