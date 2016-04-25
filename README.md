@@ -13,6 +13,7 @@
 - refactor containers from components
 
 
+
 ### DONE
 - setup dependencies and initial app
 - Now a dump from codepen
@@ -20,3 +21,4 @@
 - fix column widths
 - fix table header
 - transfer again from codepen
+- add travis deployment
