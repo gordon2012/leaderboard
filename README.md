@@ -22,3 +22,4 @@
 - fix table header
 - transfer again from codepen
 - add travis deployment
+	- fix typo
