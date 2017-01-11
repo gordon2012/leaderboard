@@ -1,8 +1,0 @@
-language: node_js
-node_js:
-  - "4.1"
-before_install:
-  - export TZ=US/Pacific
-script:
-  - npm run production
-  - bash ./.travis-deploy.sh
