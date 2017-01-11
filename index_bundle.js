@@ -9994,7 +9994,7 @@
 	        React.createElement(
 	          'h1',
 	          null,
-	          'Camper Leaderboard!!!'
+	          'Camper Leaderboard'
 	        ),
 	        React.createElement(
 	          'h3',
