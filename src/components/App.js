@@ -8,7 +8,6 @@ var App = React.createClass({
       <div className='main-container'>
         <div className="jumbotron text-center">
           <h1>Camper Leaderboard</h1>
-          <h3>A FreeCodeCamp project built with React and Sass</h3>
         </div>
         <CamperTable className="table-container" />
       </div>
