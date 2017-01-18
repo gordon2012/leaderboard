@@ -9995,11 +9995,6 @@
 	          'h1',
 	          null,
 	          'Camper Leaderboard'
-	        ),
-	        React.createElement(
-	          'h3',
-	          null,
-	          'A FreeCodeCamp project built with React and Sass'
 	        )
 	      ),
 	      React.createElement(CamperTable, { className: 'table-container' })
